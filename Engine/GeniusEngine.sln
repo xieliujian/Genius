@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniusCore", "GeniusCore\Ge
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Genius3d", "Genius3d\Genius3d.vcxproj", "{BF8C22D9-4192-496D-874B-5B592A7634AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RenderSystem", "RenderSystem", "{BBAD8AB0-AB4B-4821-8B22-B0C2E8A1B801}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniusRenderSystem_DX9", "RenderSystem\GeniusRenderSystem_DX9\GeniusRenderSystem_DX9.vcxproj", "{E2C39065-6237-447B-AE52-9D5EAE4DB252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,8 +25,15 @@ Global
 		{BF8C22D9-4192-496D-874B-5B592A7634AC}.Debug|Win32.Build.0 = Debug|Win32
 		{BF8C22D9-4192-496D-874B-5B592A7634AC}.Release|Win32.ActiveCfg = Release|Win32
 		{BF8C22D9-4192-496D-874B-5B592A7634AC}.Release|Win32.Build.0 = Release|Win32
+		{E2C39065-6237-447B-AE52-9D5EAE4DB252}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2C39065-6237-447B-AE52-9D5EAE4DB252}.Debug|Win32.Build.0 = Debug|Win32
+		{E2C39065-6237-447B-AE52-9D5EAE4DB252}.Release|Win32.ActiveCfg = Release|Win32
+		{E2C39065-6237-447B-AE52-9D5EAE4DB252}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2C39065-6237-447B-AE52-9D5EAE4DB252} = {BBAD8AB0-AB4B-4821-8B22-B0C2E8A1B801}
 	EndGlobalSection
 EndGlobal
