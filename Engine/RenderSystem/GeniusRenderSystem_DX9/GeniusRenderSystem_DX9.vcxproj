@@ -12,9 +12,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3D9RenderSystem.h" />
+    <ClInclude Include="D3D9Texture.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D3D9RenderSystem.cpp" />
+    <ClCompile Include="D3D9Texture.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E2C39065-6237-447B-AE52-9D5EAE4DB252}</ProjectGuid>
@@ -61,7 +63,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\Genius3d</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Genius3d;..\..\GeniusCore</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -83,7 +85,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\Genius3d</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Genius3d;..\..\GeniusCore</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

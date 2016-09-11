@@ -12,9 +12,15 @@
     <ClInclude Include="D3D9RenderSystem.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="D3D9Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D3D9RenderSystem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9Texture.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

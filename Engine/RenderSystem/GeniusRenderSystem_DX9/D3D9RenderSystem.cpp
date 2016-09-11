@@ -26,3 +26,8 @@ void D3D9RenderSystem::Render()
 {
 
 }
+
+void D3D9RenderSystem::SetViewport(int left, int top, int width, int height)
+{
+
+}

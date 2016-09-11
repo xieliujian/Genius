@@ -24,6 +24,9 @@ public:
 
 	// äÖÈ¾
 	virtual void Render();
+
+	// ÉèÖÃÊÓ¿Ú
+	virtual void SetViewport(int left, int top, int width, int height);
 };
 
 #endif
