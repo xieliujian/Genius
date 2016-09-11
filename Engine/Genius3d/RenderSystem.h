@@ -8,6 +8,10 @@ Description : 渲染系统的基类
 #ifndef _RenderSystem_h_
 #define _RenderSystem_h_
 
+#include "Prerequest.h"
+
+NAMESPACEBEGIN(Genius)
+
 class RenderSystem
 {
 public:
@@ -26,5 +30,7 @@ public:
 	// 设置视口
 	virtual void SetViewport(int left, int top, int width, int height) = 0;
 };
+
+NAMESPACEEND
 
 #endif

@@ -9,11 +9,17 @@ Description : 数据文件
 #ifndef __Mesh_h__
 #define __Mesh_h__
 
+#include "Prerequest.h"
+
+NAMESPACEBEGIN(Genius)
+
 class Mesh
 {
 public:
 	Mesh();
 	~Mesh();
 };
+
+NAMESPACEEND
 
 #endif

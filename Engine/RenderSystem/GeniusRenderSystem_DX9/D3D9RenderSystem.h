@@ -8,7 +8,10 @@ Description : 渲染系统的D3D9实现
 #ifndef _D3D9RenderSystem_h_
 #define _D3D9RenderSystem_h_
 
+#include "Prerequest.h"
 #include "RenderSystem.h"
+
+NAMESPACEBEGIN(Genius)
 
 class D3D9RenderSystem : public RenderSystem
 {
@@ -28,5 +31,7 @@ public:
 	// 设置视口
 	virtual void SetViewport(int left, int top, int width, int height);
 };
+
+NAMESPACEEND
 
 #endif

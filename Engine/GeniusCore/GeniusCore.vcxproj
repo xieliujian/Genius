@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataChunkWrite.h" />
+    <ClInclude Include="Prerequest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataChunkWrite.cpp" />

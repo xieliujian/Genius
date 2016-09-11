@@ -12,6 +12,9 @@
     <ClInclude Include="DataChunkWrite.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="Prerequest.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataChunkWrite.cpp">

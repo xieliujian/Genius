@@ -1,6 +1,7 @@
 
-
 #include "Texture.h"
+
+NAMESPACEBEGIN(Genius)
 
 Texture::Texture()
 {
@@ -11,3 +12,5 @@ Texture::~Texture()
 {
 
 }
+
+NAMESPACEEND
