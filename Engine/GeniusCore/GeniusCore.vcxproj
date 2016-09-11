@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataChunkWrite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataChunkWrite.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0DEBC0F3-A439-437E-AC3C-1125C7A617D9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -61,6 +67,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <OutputFile>$(OutDir)\GeniusCored.lib</OutputFile>
     </Link>
+    <Lib>
+      <OutputFile>$(OutDir)\GeniusCored.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -80,6 +89,9 @@
       <OptimizeReferences>true</OptimizeReferences>
       <OutputFile>$(OutDir)\GeniusCore.lib</OutputFile>
     </Link>
+    <Lib>
+      <OutputFile>$(OutDir)\GeniusCore.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

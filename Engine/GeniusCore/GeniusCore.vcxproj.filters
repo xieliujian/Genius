@@ -8,4 +8,14 @@
       <UniqueIdentifier>{9c8c9a03-a584-4979-963f-4e09732cd586}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataChunkWrite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataChunkWrite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

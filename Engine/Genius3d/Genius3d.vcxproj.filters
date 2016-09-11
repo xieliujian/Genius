@@ -15,12 +15,18 @@
     <ClCompile Include="Texture.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderSystem.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
