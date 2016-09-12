@@ -64,7 +64,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\Genius3d;..\..\GeniusCore</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Genius3d;..\..\GeniusCore;..\..\..\External\Microsoft DirectX SDK (June 2010)\Include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -72,8 +72,8 @@
     </Link>
     <Lib>
       <OutputFile>$(OutDir)\GeniusRenderSystem_DX9d.lib</OutputFile>
-      <AdditionalDependencies>Genius3dd.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\..\Libs</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Genius3dd.lib;d3d9.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\Libs;..\..\..\External\Microsoft DirectX SDK (June 2010)\Lib\x86</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -86,7 +86,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\Genius3d;..\..\GeniusCore</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Genius3d;..\..\GeniusCore;..\..\..\External\Microsoft DirectX SDK (June 2010)\Include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -96,8 +96,8 @@
     </Link>
     <Lib>
       <OutputFile>$(OutDir)\GeniusRenderSystem_DX9.lib</OutputFile>
-      <AdditionalLibraryDirectories>..\..\..\Libs</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Genius3d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\Libs;..\..\..\External\Microsoft DirectX SDK (June 2010)\Lib\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Genius3d.lib;d3d9.lib</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
