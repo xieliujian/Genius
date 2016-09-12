@@ -17,6 +17,7 @@ D3D9RenderSystem::~D3D9RenderSystem()
 
 void D3D9RenderSystem::Init(int hwnd, int width, int height)
 {
+	mpD3D = Direct3DCreate9(D3D_SDK_VERSION);
 	CreateDevice(hwnd, width, height);
 	SetViewport(0, 0, width, height);
 }
