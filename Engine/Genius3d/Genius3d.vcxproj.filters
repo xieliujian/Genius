@@ -27,6 +27,21 @@
     <ClCompile Include="Skeleton.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="GeoChunk.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderSystem.h">
@@ -45,6 +60,21 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="Skeleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoChunk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

@@ -13,9 +13,11 @@
   <ItemGroup>
     <ClInclude Include="DataChunkWrite.h" />
     <ClInclude Include="Prerequest.h" />
+    <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataChunkWrite.cpp" />
+    <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0DEBC0F3-A439-437E-AC3C-1125C7A617D9}</ProjectGuid>

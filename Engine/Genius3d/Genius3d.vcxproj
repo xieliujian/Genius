@@ -12,6 +12,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bone.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="GeoChunk.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Materials.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Skeleton.h" />
@@ -20,6 +25,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="GeoChunk.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Materials.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="Skeleton.cpp" />

@@ -15,9 +15,15 @@
     <ClInclude Include="Prerequest.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataChunkWrite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
