@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D3D9Prerequest.h" />
     <ClInclude Include="D3D9RenderSystem.h" />
     <ClInclude Include="D3D9Texture.h" />
   </ItemGroup>

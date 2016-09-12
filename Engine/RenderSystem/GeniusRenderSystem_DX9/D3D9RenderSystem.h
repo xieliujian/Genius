@@ -30,6 +30,9 @@ public:
 
 	// …Ë÷√ ”ø⁄
 	virtual void SetViewport(int left, int top, int width, int height);
+
+private:
+
 };
 
 NAMESPACEEND
