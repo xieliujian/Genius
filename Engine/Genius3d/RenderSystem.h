@@ -19,7 +19,7 @@ public:
 	~RenderSystem();
 
 	// 创建驱动
-	virtual void CreateDevice(int hwnd, int width, int height) = 0;
+	virtual void Init(int hwnd, int width, int height) = 0;
 
 	// 帧渲染开始
 	virtual void BeginFrame() = 0;

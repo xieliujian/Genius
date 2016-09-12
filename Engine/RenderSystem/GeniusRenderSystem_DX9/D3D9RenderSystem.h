@@ -19,8 +19,8 @@ public:
 	D3D9RenderSystem();
 	~D3D9RenderSystem();
 
-	// 创建驱动
-	virtual void CreateDevice(int hwnd, int width, int height);
+	// 初始化
+	virtual void Init(int hwnd, int width, int height);
 
 	// 帧渲染开始
 	virtual void BeginFrame();
@@ -35,6 +35,9 @@ public:
 	virtual void SetViewport(int left, int top, int width, int height);
 
 private:
+	// 创建驱动
+	void CreateDevice(int hwnd, int width, int height);
+
 	IDirect3D9 *mpD3D;
 	IDirect3DDevice9 *mpDevice;
 	D3DVIEWPORT9 mViewport;

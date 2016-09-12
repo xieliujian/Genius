@@ -15,6 +15,12 @@ D3D9RenderSystem::~D3D9RenderSystem()
 
 }
 
+void D3D9RenderSystem::Init(int hwnd, int width, int height)
+{
+	CreateDevice(hwnd, width, height);
+	SetViewport(0, 0, width, height);
+}
+
 void D3D9RenderSystem::CreateDevice(int hwnd, int width, int height)
 {
 	D3DPRESENT_PARAMETERS param;
