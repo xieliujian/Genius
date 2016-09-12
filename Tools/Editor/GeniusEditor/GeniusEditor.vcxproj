@@ -64,6 +64,7 @@
     <Lib>
       <AdditionalLibraryDirectories>..\..\..\Libs</AdditionalLibraryDirectories>
       <AdditionalDependencies>GeniusCored.lib;Genius3dd.lib;GeniusRenderSystem_DX9d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)\GeniusEditord.lib</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -87,6 +88,7 @@
     <Lib>
       <AdditionalLibraryDirectories>..\..\..\Libs</AdditionalLibraryDirectories>
       <AdditionalDependencies>GeniusCore.lib;Genius3d.lib;GeniusRenderSystem_DX9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)\GeniusEditor.lib</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
