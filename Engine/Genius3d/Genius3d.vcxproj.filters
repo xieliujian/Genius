@@ -18,6 +18,9 @@
     <ClCompile Include="Mesh.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderSystem.h">
@@ -27,6 +30,9 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="Mesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
