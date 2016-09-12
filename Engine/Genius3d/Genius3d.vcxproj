@@ -11,14 +11,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bone.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="RenderSystem.h" />
+    <ClInclude Include="Skeleton.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bone.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>

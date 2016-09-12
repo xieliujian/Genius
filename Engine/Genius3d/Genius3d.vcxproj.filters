@@ -21,6 +21,12 @@
     <ClCompile Include="Vector.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderSystem.h">
@@ -33,6 +39,12 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="Vector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
