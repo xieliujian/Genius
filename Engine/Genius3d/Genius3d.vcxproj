@@ -50,12 +50,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IntDir>../Intermediate/$(Configuration)/$(ProjectName)</IntDir>
-    <OutDir>../Libs</OutDir>
+    <IntDir>../../Intermediate/$(Configuration)/$(ProjectName)</IntDir>
+    <OutDir>../../Libs</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IntDir>../Intermediate/$(Configuration)/$(ProjectName)</IntDir>
-    <OutDir>../Libs</OutDir>
+    <IntDir>../../Intermediate/$(Configuration)/$(ProjectName)</IntDir>
+    <OutDir>../../Libs</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -73,6 +73,8 @@
     </Link>
     <Lib>
       <OutputFile>$(OutDir)\Genius3dd.lib</OutputFile>
+      <AdditionalDependencies>GeniusCored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Libs</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -95,6 +97,8 @@
     </Link>
     <Lib>
       <OutputFile>$(OutDir)\Genius3d.lib</OutputFile>
+      <AdditionalDependencies>GeniusCored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Libs</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
