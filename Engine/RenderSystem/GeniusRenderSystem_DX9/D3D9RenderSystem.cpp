@@ -61,7 +61,7 @@ void D3D9RenderSystem::BeginFrame()
 		return;
 	}
 
-	mpDevice->Clear(0, 0, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, D3DCOLOR_COLORVALUE(0.5f, 0.5f, 0.5f, 0.0f), 1.0f, 0);
+	mpDevice->Clear(0, 0, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, D3DCOLOR_COLORVALUE(0.0f, 0.0f, 0.0f, 0.0f), 1.0f, 0);
 	mpDevice->SetViewport(&mViewport);
 
 	mpDevice->SetRenderState(D3DRS_ALPHABLENDENABLE, FALSE);
