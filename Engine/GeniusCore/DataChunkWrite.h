@@ -44,12 +44,12 @@ public:
 	bool SaveToFile(const char* pszFilename);
 	void Destroy();
 protected:
-	std::stack<ChunkDesc> m_stackChunkDesc;
-	uint32	m_dwBufferSize;
-	uint8*	m_pbyBuffer;
-	uint32	m_dwOffset;
-	bool	m_bSkip0SizeChunk;		// 是否skip没有内容的文件头
-	bool	m_bExternalMemory;		// 是否自建内存
+	std::stack<ChunkDesc> mChunkDescStack;
+	uint32	mBufferSize;
+	uint8*	mpBuffer;
+	uint32	mOffset;
+	bool	mbSkip0SizeChunk;		// 是否skip没有内容的文件头
+	bool	mbExternalMemory;		// 是否自建内存
 };
 
 NAMESPACEEND
