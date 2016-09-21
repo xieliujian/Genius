@@ -12,8 +12,11 @@ public:
 	QtModelEditor(QWidget *parent = 0);
 	~QtModelEditor();
 
+	void closeEvent(QCloseEvent *event);	// event ...
+	void WriteSetting();
+	void ReadSetting();
 private:
-	Ui::QtModelEditorClass ui;
+	//Ui::QtModelEditorClass ui;
 };
 
 #endif // QTMODELEDITOR_H
