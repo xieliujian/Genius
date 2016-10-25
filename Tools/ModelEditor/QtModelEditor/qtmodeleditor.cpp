@@ -1,3 +1,4 @@
+
 #include "qtmodeleditor.h"
 
 QtModelEditor::QtModelEditor(QWidget *parent)
@@ -5,7 +6,12 @@ QtModelEditor::QtModelEditor(QWidget *parent)
 {
 	//ui.setupUi(this);
 
-	ReadSetting();
+	mEditor = new BaseEditor();
+	mModelWidget = new ModelD3D9Widget(parent);
+	setCentralWidget(mModelWidget);
+	ReadSetting();	
+
+	mEditor->Create(mModelWidget->winId());
 }
 
 QtModelEditor::~QtModelEditor()

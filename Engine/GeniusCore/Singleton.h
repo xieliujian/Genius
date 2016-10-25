@@ -26,12 +26,12 @@ public:
 		mInstance = NULL;
 	}
 
-	T* GetInstancePtr()
+	static T* GetInstancePtr()
 	{
 		return mInstance;
 	}
 
-	T& GetInstance()
+	static T& GetInstance()
 	{
 		return *mInstance;
 	}

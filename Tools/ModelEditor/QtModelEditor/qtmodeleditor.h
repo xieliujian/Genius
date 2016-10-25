@@ -3,6 +3,10 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_qtmodeleditor.h"
+#include "Editor.h"
+#include "ModelD3D9Widget.h"
+
+using namespace Editor;
 
 class QtModelEditor : public QMainWindow
 {
@@ -17,6 +21,8 @@ public:
 	void ReadSetting();
 private:
 	//Ui::QtModelEditorClass ui;
+	BaseEditor *mEditor;
+	ModelD3D9Widget *mModelWidget;
 };
 
 #endif // QTMODELEDITOR_H
