@@ -6,7 +6,7 @@ NAMESPACEBEGIN(Genius)
 
 Mesh::Mesh()
 {
-
+	
 }
 
 Mesh::~Mesh()
